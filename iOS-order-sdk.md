@@ -409,15 +409,23 @@ SobotCacheEntity *config = [[SobotCacheEntity alloc] init];
       智齿SDK功能体验Demo[下载地址](https://github.com/ZCSDK/iOS_OrderSDK_demo.git)
 
 ## 6 常见问题
-       常见问题解答：
-      1.账号怎么获取
-      2.初始化失败怎么解决
-请[点击链接](https://www.sobot.com/chat/pc/v2/index.html?sysnum=a76f3cef7d1043c69dd592c3e43f8242#0) 进入智能机器人输入您的问题
 
-      
+      1.token怎么获取？  
+      通过智齿登录接口获取登录token，如果无法获取请使用用户名、密码完成登录，体验效果完全一样，请放心使用。  
+             
+      2.无法正常登录？  
+      登录之前请确认是否执行初始化操作，初始化操作为本地赋值；不会有异步请求，主要会设置域名及基础配置信息，确认登录信息正确的情况下，主要验证一下是否为域名不匹配。  
+         
+      3.如果把工单主页面嵌入到其它框架使用？  
+      请参考demo项目，其中有使用tabbar把工单中心页面放入到里面管理的事例。   
+        
+      4. 如果监听工单提醒？  
+      目前不支持消息提醒，如果需要请反馈给相关对接人员，后续有新增后将及时通知与您。
+
+
 ## 7 更新说明
 
-   [《智齿iOS_OrderSDK 版本更新说明》](https://github.com/ZCSDK/iOS_OrderSDK_demo/releases/tag/1.0.0)
+   [《智齿iOS_OrderSDK 版本更新说明》](https://github.com/ZCSDK/iOS_OrderSDK_demo/blob/master/iOS-order-sdk-update.md)
 
 
 ## 8 智齿科技SDK收集使用个人信息说明

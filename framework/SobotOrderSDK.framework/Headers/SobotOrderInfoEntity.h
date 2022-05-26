@@ -85,6 +85,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *dealServerId;// 受理客服ID
 @property (nonatomic, strong) NSString *dealGroupId;// 受理客服组ID
 
+@property (nonatomic,copy) NSString *dealUserId;//接口返回的当前工单的受理客服ID
 
 @property (nonatomic, strong) NSString *templateId;// 模板id
 @property (nonatomic, strong) NSString *templateName;// 模板名称
