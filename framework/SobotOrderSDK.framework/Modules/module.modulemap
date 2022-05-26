@@ -1,0 +1,6 @@
+framework module SobotOrderSDK {
+  umbrella header "SobotOrderSDK.h"
+
+  export *
+  module * { export * }
+}
